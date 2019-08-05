@@ -1,0 +1,6 @@
+Driver Christine
+Driver Amy
+Driver Max
+Trip  Christine  10:00  11:00  60 
+Trip  Amy  11:30  12:00  50 
+Trip  Max  8:00  9:00  65 
