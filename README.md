@@ -20,28 +20,28 @@ I tested the code by putting the program into a separate file. I had a few bugs 
 variables are input through the .txt file, this code will work. I broke distance and qualify, the two factors that would affect the output, down
 into every possibility. I tested the following and used a new doesQualify (doesQualify1, doesQualify2, etc.) list to test each option. 
 
-Distance Property Comparison (with all trips qualifying for reporting e.g. if doesQualify.Contains(tripOne.mph))
-1 = string[] trip1
-2 = string[] trip2
-3 = string[] trip3
-1 > 2 and 3 & 2 > 3
-1 > 2 and 3 & 3 > 2
-2 > 1 and 3 & 1 > 3
-2 > 1 and 3 & 3 > 1
-3 > 2 and 1 & 1 > 2
-3 > 2 and 1 & 2 > 1
+Distance Property Comparison (with all trips qualifying for reporting e.g. if doesQualify.Contains(tripOne.mph))<br/>
+1 = string[] trip1<br/>
+2 = string[] trip2<br/>
+3 = string[] trip3<br/>
+1 > 2 and 3 & 2 > 3<br/>
+1 > 2 and 3 & 3 > 2<br/>
+2 > 1 and 3 & 1 > 3<br/>
+2 > 1 and 3 & 3 > 1<br/>
+3 > 2 and 1 & 1 > 2<br/>
+3 > 2 and 1 & 2 > 1<br/>
 
-Qualify and distance comparison
-1 & 2 qualify and 1 > 2
-1 & 3 qualify and 1 > 3
-1 & 2 qualify and 2 > 3
-1 & 3 qualify and 3 > 1
-2 & 3 qualify and 3 > 2
-2 & 3 qualify and 2 > 3
-Only 1 qualifies
-Only 2 qualifies
-Only 3 qualifies
-0 qualifies 
+Qualify and distance comparison<br/>
+1 & 2 qualify and 1 > 2<br/>
+1 & 3 qualify and 1 > 3<br/>
+1 & 2 qualify and 2 > 3<br/>
+1 & 3 qualify and 3 > 1<br/>
+2 & 3 qualify and 3 > 2<br/>
+2 & 3 qualify and 2 > 3<br/>
+Only 1 qualifies<br/>
+Only 2 qualifies<br/>
+Only 3 qualifies<br/>
+0 qualifies <br/>
 
 I understand that this code and testing approach does not contain the scalability for a larger project. Testing every single outcome 
 individually simply will not be an option in the future. However, this is where I am as a developer right now. I am confident that I 
